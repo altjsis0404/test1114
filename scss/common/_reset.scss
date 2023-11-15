@@ -1,13 +1,26 @@
-*{
-    margin: 0px; 
-    padding: 0px; 
-    box-sizing: border-box;
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
 }
 ul,
 ol,
-li{
-    list-style: none;
+li {
+	list-style: none;
 }
-a{
-    text-decoration: none;
-} 
+a {
+	text-decoration: none;
+}
+.hidden {
+	position: absolute;
+	top: -999999px;
+	opacity: 0;
+}
+table {
+	border-collapse: collapse;
+}
+/*
+보더 커럽스 : 셀과 셀사이의 공간에 대한 설정
+collapse 공간을 제거합니다
+separate 공간이 존재함(기본값)
+*/
